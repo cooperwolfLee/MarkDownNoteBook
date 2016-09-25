@@ -1,6 +1,6 @@
-Replace <USER> with correct user name.
+Replace `<USER>` with correct user name.
 
-Replace <NEW_LOCATION_PATH> with desired location.
+Replace `<NEW_LOCATION_PATH>` with desired location.
 ```bat
 mklink /D "C:\Users\<USER>\AppData\Local\Google\Chrome\User Data"       "<NEW_LOCATION_PATH>\Google Chrome User Data"
 mklink /D "C:\Users\<USER>\AppData\Roaming\Tencent\Logs"                "<NEW_LOCATION_PATH>\Tencnet Logs"
